@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elena Zhu — Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <h1 class="name">Elena Zhu</h1>
+        <div class="contact">
+          <span>888-888-8888</span>
+          <span>•</span>
+          <a href="mailto:elenazhu2024@gmail.com">elenazhu2024@gmail.com</a>
+          <span class="sep">•</span>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+          <span>·</span>
+          <a href="https://github.com" target="_blank" rel="noreferrer noopener">GitHub</a>
+          <span>·</span>
+          <a href="#" target="_blank" rel="noreferrer noopener">Portfolio</a>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills">
+          <div class="skill-row">
+            <span class="skill-label">Programming Languages:</span>
+            <span class="skill-text">JavaScript, TypeScript, Python, Java, C, Kotlin</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Web Development:</span>
+            <span class="skill-text">HTML5, CSS3, Node.js, Express.js, React, Next.js, Tailwind CSS</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Database:</span>
+            <span class="skill-text">MySQL, Firebase, MongoDB</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Tools:</span>
+            <span class="skill-text">AWS Services, Docker, CI/CD, Git, GitHub, Bitbucket, Expo, Agile Methodology, MS Office, Notion, Trello, Jira, Miro, Figma, Eclipse, Visual Studio Code, Slack, Studio 3T, Plaid, HubSpot</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Work Experience</h2>
+        <article class="item">
+          <div class="item-header">
+            <div>
+              <h3 class="item-title">Co-op QA Engineer — Formations</h3>
+            </div>
+            <div class="item-dates">May – Dec. 2024</div>
+          </div>
+          <ul class="item-bullets">
+            <li>Collaborated with the product manager and developers to review designs and identify potential issues early through shift-left testing, reducing production bugs by 33%.</li>
+            <li>Conducted End-to-End Testing, including test planning, test case creation, and execution.</li>
+            <li>Developed and executed automated test scripts for functional, regression, and API testing.</li>
+            <li>Used Jira to manage test cases, document issues, and track progress in Agile sprints.</li>
+            <li>Streamlined team communication and product development by documenting issue reports, feature updates, and FAQs.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+        <article class="item">
+          <div class="item-header">
+            <h3 class="item-title">QA &amp; Full Stack Developer — Onliweb (Academic)</h3>
+            <div class="item-dates">May 2025</div>
+          </div>
+          <ul class="item-bullets">
+            <li>Designed and implemented Linktree integration within Onliweb's OSYNC pipeline.</li>
+            <li>Developed logic to fetch, parse, and normalize profile data into a unified schema.</li>
+            <li>Automated population of personal websites with imported Linktree content, reducing manual setup for users.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="item-header">
+            <h3 class="item-title">QA &amp; Back-End Developer — The Tasty Fork (Academic)</h3>
+            <div class="item-dates">Jan. – Mar. 2025</div>
+          </div>
+          <ul class="item-bullets">
+            <li>Designed and executed test scenarios for reservation booking/retrieval workflows and the Contact Us notification system.</li>
+            <li>Verified backend API correctness (Node.js endpoints), data persistence, and email notifications through AWS SNS.</li>
+            <li>Conducted regression and integration testing to ensure reliability across AWS and frontend.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+        <article class="edu">
+          <div class="item-header">
+            <h3 class="item-title">British Columbia Institute of Technology</h3>
+            <div class="item-dates">Sept. 2023 – Dec. 2025 (Expected)</div>
+          </div>
+          <div class="subtext">Computer Systems Technology Diploma (Cloud Computing Option)</div>
+        </article>
+        <article class="edu">
+          <div class="item-header">
+            <h3 class="item-title">University of California, Los Angeles — Master of Laws</h3>
+            <div class="item-dates">Sept. 2019 – June 2020</div>
+          </div>
+        </article>
+        <article class="edu">
+          <div class="item-header">
+            <h3 class="item-title">Wuhan University — Bachelor of Laws</h3>
+            <div class="item-dates">Sept. 2014 – June 2017</div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Certificates</h2>
+        <ul class="certs">
+          <li>
+            ISTQB Certified Tester — Foundation Level (CTFL)
+            <span class="muted">Issued Oct. 2025</span>
+          </li>
+          <li>
+            AWS Certified Solutions Architect — Associate Level
+            <span class="muted">Issued Jul. 2025</span>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <span>© <span id="year"></span> Elena Zhu</span>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+

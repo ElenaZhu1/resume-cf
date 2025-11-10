@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Node / web tooling
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+dist/
+build/
+.parcel-cache/
+.cache/
+
+# Env and local configs
+.env
+.env.*
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+coverage/
+*.local
+*.tmp
+*.swp
+
